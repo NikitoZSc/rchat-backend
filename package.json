@@ -1,0 +1,19 @@
+{
+  "name": "reactchat-backend",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node src/index.js",
+    "build": "webpack --config ./support/webpack.config.js"
+  },
+  "author": "NikZ",
+  "license": "MIT",
+  "devDependencies": {
+    "socket.io": "^2.0.3",
+    "webpack": "^2.6.1"
+  },
+  "dependencies": {
+    "mysql": "^2.15.0"
+  },
+  "babel": {}
+}
